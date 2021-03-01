@@ -1,5 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/cmario/.config/jesseduffield/lazygit
+- /home/cmario/.config/nvim
+- /home/cmario/Development/FootballLads/fl-service
 - /home/cmario/Development/FootballLads/fl-web
 startuppopupversion: 3
