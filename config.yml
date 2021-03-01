@@ -15,9 +15,9 @@ gui:
       optionsTextColor:
         - blue
       selectedLineBgColor:
-        - default
+        - reverse
       selectedRangeBgColor:
-        - blue
+        - reverse
     commitLength:
       show: true
     mouseEvents: true
@@ -26,4 +26,5 @@ gui:
 git:
     paging:
       colorArg: never
-      pager: ydiff -p cat -s --wrap --width=40
+      pager: ydiff -p cat -s --nowrap --width={{columnWidth}}
+    branchLogCmd: "git log --graph --color=always --abbrev-commit --decorate --date=relative --pretty=medium --oneline {{branchName}} --"
